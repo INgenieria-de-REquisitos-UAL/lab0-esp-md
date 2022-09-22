@@ -1,0 +1,21 @@
+{
+    "data":{
+        "value": 27.5
+    },
+    "time": "2022-01-01T00:00:00Z",
+    "thingId": "acg:lab:tempsensor:1",
+    "context":{
+        "location":{ "lat": 40.123, "lon": -3.123, "height": 10 },
+        "location_desc": "Universidad de Almeria, en el techo del laboratorio de informatica de ACG 2.150, CITIC",
+        "tech": {
+            "name":"knx",
+            "tech_context":{ "knx_address": "2/2/1", "data_type":"9.001" },
+        },
+        "data_unit": "°C",
+        "owner": {
+            "org": "ACG",
+            "name": "Manel Mena",
+            "email": "manel.mena@ual.es"
+        }
+    }
+}
