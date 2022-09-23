@@ -60,6 +60,7 @@ Uno de los alumnos miembros del grupo creará un repositorio dónde iremos subie
 
 image::gitRepo.png[]
 
+
 === Actividad 2: Diagramas de Casos de Uso con mermaid y plantUML
 A continuación, tenéis una serie de supuestos prácticos para los cuales tendréis que generar un diagrama de casos de uso con mermaid y otro con plantUML. Para ello, generareis un archivo markdown en el cual embeberéis el enunciado de cada uno de los supuestos junto con el código mermaid y el código plantUML. 
 [NOTE]
