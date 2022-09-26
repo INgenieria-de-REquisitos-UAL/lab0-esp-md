@@ -59,8 +59,10 @@ Uno de los alumnos miembros del grupo creará un repositorio dónde iremos subie
 
 image::gitRepo.png[]
 
+<<<<<<< HEAD
 === Actividad 2: Diagramas de Casos de Uso con plantUML
 A continuación, tenéis una serie de supuestos prácticos para los cuales tendréis que generar un diagrama de casos de uso con plantUML. Para ello, generareis un archivo markdown en el cual embeberéis el enunciado de cada uno de los supuestos junto con el el código plantUML. 
+
 [NOTE]
 ====
 Para facilitar la consecución de estos ejercicios, comentaros que estos diagramas vienen de ejercicios que ya realizasteis el año anterior en la asignatura de ingeniería de software.
