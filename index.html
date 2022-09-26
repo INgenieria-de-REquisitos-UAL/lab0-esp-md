@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
 <meta name="author" content="Ejercicios de MarkDown, Mermaid y PlantUML">
-<title>Lab 0 - Familiarización con MarkDown-Mermaid-PlantUML</title>
+<title>Lab 0 - Familiarización con MarkDown-PlantUML</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,7 +439,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-right data-line-1">
 <div id="header">
-<h1>Lab 0 - Familiarización con MarkDown-Mermaid-PlantUML</h1>
+<h1>Lab 0 - Familiarización con MarkDown-PlantUML</h1>
 <div class="details">
 <span id="author" class="author">Ejercicios de MarkDown, Mermaid y PlantUML</span><br>
 <span id="revdate">Manel Mena &lt;manel.mena@ual.es&gt;</span>
@@ -456,7 +456,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_actividades">2. Actividades</a>
 <ul class="sectlevel2">
 <li><a href="#_actividad_1_creación_de_un_repositorio_git_en_github">2.1. Actividad 1: Creación de un repositorio GIT en GitHub</a></li>
-<li><a href="#_actividad_2_diagramas_de_casos_de_uso_con_mermaid_y_plantuml">2.2. Actividad 2: Diagramas de Casos de Uso con mermaid y plantUML</a></li>
+<li><a href="#_actividad_2_diagramas_de_casos_de_uso_con_plantuml">2.2. Actividad 2: Diagramas de Casos de Uso con plantUML</a></li>
 <li><a href="#_actividad_3_diagrama_de_casos_de_uso_de_la_aplicación_del_gd">2.3. Actividad 3: Diagrama de casos de uso de la aplicación del GD</a></li>
 </ul>
 </li>
@@ -469,7 +469,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_resumen">Resumen</h2>
 <div class="sectionbody">
 <div class="paragraph data-line-24">
-<p>Ejercicios para familiarizarse con MarkDown-Mermaid-PlanUML.</p>
+<p>Ejercicios para familiarizarse con MarkDown-PlanUML.</p>
 </div>
 <div class="ulist data-line-28">
 <div class="title">Objetivos</div>
@@ -481,49 +481,46 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Uso básico de Markdown.</p>
 </li>
 <li class="data-line-30">
-<p>Uso básico de Mermaid.</p>
-</li>
-<li class="data-line-31">
 <p>Uso básico de PlantUML.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
-<div class="sect1 data-line-37">
+<div class="sect1 data-line-36">
 <h2 id="_introducción">1. Introducción</h2>
 <div class="sectionbody">
-<div class="paragraph data-line-39">
-<p>En esta primera sesión vamos a familiarizarnos con los repositorios git, el lenguaje de documentación de repositorios markdown y los plugins mermaids y plant UML. Para ello la subsección links encontrareis documentos de ayuda para cada uno de estos lenguajes. A continuación, detallaremos las actividades que tendréis que realizar en esta primera clase de prácticas.</p>
+<div class="paragraph data-line-38">
+<p>En esta primera sesión vamos a familiarizarnos con los repositorios git, el lenguaje de documentación de repositorios markdown y el plugin de plant UML. Para ello la subsección links encontrareis documentos de ayuda para cada uno de estos lenguajes. A continuación, detallaremos las actividades que tendréis que realizar en esta primera clase de prácticas.</p>
 </div>
-<div class="imageblock data-line-41">
+<div class="imageblock data-line-40">
 <div class="content">
 <img src="./images/inre.jpg" alt="inre">
 </div>
 </div>
-<div class="sect2 data-line-43">
+<div class="sect2 data-line-42">
 <h3 id="_preparando_la_máquina">1.1. Preparando la máquina</h3>
-<div class="paragraph data-line-45">
+<div class="paragraph data-line-44">
 <p>Lo primero es comprobar que tenéis instalado y funcionando el siguiente Software.</p>
 </div>
-<div class="ulist data-line-47">
+<div class="ulist data-line-46">
 <ul>
-<li class="data-line-47">
+<li class="data-line-46">
 <p>Visual Studio Code.</p>
 </li>
-<li class="data-line-48">
-<p>Los plugins de Mermaid, PlantUML y MarkDown PDF.</p>
+<li class="data-line-47">
+<p>Los plugins de PlantUML y MarkDown PDF.</p>
 </li>
 </ul>
 </div>
-<div class="admonitionblock note data-line-51">
+<div class="admonitionblock note data-line-50">
 <table>
 <tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
 <td class="content">
-<div class="paragraph data-line-52">
+<div class="paragraph data-line-51">
 <p>En caso de querer realizarlo con otro procesador de textos o con otro mini-IDE, corre a cuenta del alumno que compruebe que cuando se suba la documentación a los repositorios pertinentes, los diagramas se hayan generado automáticamente.</p>
 </div>
 </td>
@@ -533,42 +530,42 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
-<div class="sect1 data-line-55">
+<div class="sect1 data-line-54">
 <h2 id="_actividades">2. Actividades</h2>
 <div class="sectionbody">
-<div class="sect2 data-line-57">
+<div class="sect2 data-line-56">
 <h3 id="_actividad_1_creación_de_un_repositorio_git_en_github">2.1. Actividad 1: Creación de un repositorio GIT en GitHub</h3>
-<div class="paragraph data-line-59">
+<div class="paragraph data-line-58">
 <p>Uno de los alumnos miembros del grupo creará un repositorio dónde iremos subiendo toda la documentación generada en las subsecuentes clases de práctica. El repositorio se creará con el nombre “INRE-UAL-{Color de equipo}-{Año de la asignatura}”. Este repositorio será privado y se habrá de invitar al resto de compañeros que formen parte del equipo. En la raíz del repositorio crearemos un archivo “README.md” Dónde pondréis el nombre de todos los integrantes del equipo junto con su correo electrónico, subsecuentemente y conforme vayamos haciendo prácticas añadiréis un enlace a la documentación generada en cada una de ellas. Para cada práctica, crearéis una carpeta con el nombre “lab{número de práctica}”, en estas carpetas introduciréis los distintos artefactos generados para la consecución de dicha práctica. En la siguiente imagen se muestra una ilustración de cómo debería quedar el repositorio.</p>
 </div>
-<div class="imageblock data-line-61">
+<div class="imageblock data-line-60">
 <div class="content">
 <img src="./images/gitRepo.png" alt="gitRepo">
 </div>
 </div>
 </div>
-<div class="sect2 data-line-63">
-<h3 id="_actividad_2_diagramas_de_casos_de_uso_con_mermaid_y_plantuml">2.2. Actividad 2: Diagramas de Casos de Uso con mermaid y plantUML</h3>
-<div class="paragraph data-line-64">
-<p>A continuación, tenéis una serie de supuestos prácticos para los cuales tendréis que generar un diagrama de casos de uso con mermaid y otro con plantUML. Para ello, generareis un archivo markdown en el cual embeberéis el enunciado de cada uno de los supuestos junto con el código mermaid y el código plantUML.</p>
+<div class="sect2 data-line-62">
+<h3 id="_actividad_2_diagramas_de_casos_de_uso_con_plantuml">2.2. Actividad 2: Diagramas de Casos de Uso con plantUML</h3>
+<div class="paragraph data-line-63">
+<p>A continuación, tenéis una serie de supuestos prácticos para los cuales tendréis que generar un diagrama de casos de uso con plantUML. Para ello, generareis un archivo markdown en el cual embeberéis el enunciado de cada uno de los supuestos junto con el el código plantUML.</p>
 </div>
-<div class="admonitionblock note data-line-66">
+<div class="admonitionblock note data-line-65">
 <table>
 <tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
 <td class="content">
-<div class="paragraph data-line-67">
+<div class="paragraph data-line-66">
 <p>Para facilitar la consecución de estos ejercicios, comentaros que estos diagramas vienen de ejercicios que ya realizasteis el año anterior en la asignatura de ingeniería de software.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
-<div class="sect3 data-line-70">
+<div class="sect3 data-line-69">
 <h4 id="_supuesto_1_horarios">2.2.1. Supuesto 1: Horarios</h4>
-<div class="paragraph data-line-72">
+<div class="paragraph data-line-71">
 <p>En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden
 consultar horarios. Por su parte, el personal del PAS puede modificar horarios y dar de alta
 estudiantes. El personal de PDI puede proponer cambios en los horarios y dar de alta
@@ -578,9 +575,9 @@ además de verificar los datos también permite de forma excepcional realizar la
 en las listas de clase de sus asignaturas.</p>
 </div>
 </div>
-<div class="sect3 data-line-80">
+<div class="sect3 data-line-79">
 <h4 id="_supuesto_2_sistema_de_compras">2.2.2. Supuesto 2: Sistema de Compras</h4>
-<div class="paragraph data-line-81">
+<div class="paragraph data-line-80">
 <p>En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor,
 proveedor y administrador. Los compradores pueden agregar productos, consultar precios,
 finalizar la compra y consultar ofertas. Agregar productos implica marcar esos productos
@@ -599,9 +596,9 @@ conjunta. En dicha operación, se lleva a cabo el acuerdo de un precio; excepcio
 durante la realización de la venta, se consultará el histórico de ventas.</p>
 </div>
 </div>
-<div class="sect3 data-line-98">
+<div class="sect3 data-line-97">
 <h4 id="_supuesto_3_compañía_hotelera">2.2.3. Supuesto 3: Compañía hotelera</h4>
-<div class="paragraph data-line-100">
+<div class="paragraph data-line-99">
 <p>En una compañía hotelera, el administrador y el comercial pueden consultar reservas. El
 comercial realiza ofertas y gestiona nuevas reservas. El administrador gestiona nuevas
 peticiones y también realiza ofertas. La realización de ofertas por parte del comercial
@@ -613,9 +610,9 @@ elementos. Por su parte, la consulta de disponibilidades conlleva una funcionali
 muestra un calendario.</p>
 </div>
 </div>
-<div class="sect3 data-line-110">
+<div class="sect3 data-line-109">
 <h4 id="_supuesto_4_fotografía_online">2.2.4. Supuesto 4: Fotografía Online</h4>
-<div class="paragraph data-line-112">
+<div class="paragraph data-line-111">
 <p>En una aplicación de fotografía online, los clientes pueden visualizar las fotos, donde de
 forma excepcional se puede realizar una denuncia sobre la foto. Al denunciar una foto, se
 ha de introducir una explicación sobre la denuncia. Los clientes también pueden llevar a
@@ -636,9 +633,9 @@ clientes. Editar usuarios tiene características en común con editar facturas. 
 conlleva el envío de un email en el que es necesario el uso de un gestor de correo.</p>
 </div>
 </div>
-<div class="sect3 data-line-131">
+<div class="sect3 data-line-130">
 <h4 id="_supuesto_5_gestión_de_incidencias">2.2.5. Supuesto 5: Gestión de Incidencias</h4>
-<div class="paragraph data-line-133">
+<div class="paragraph data-line-132">
 <p>En un sistema de gestión de incidencias, los técnicos y los operadores pueden dar de alta
 incidencias, para lo cual, de forma excepcional se enviará un correo (en esta operación
 participa un sistema de gestión de correo). Los técnicos también atienden llamadas
@@ -661,10 +658,10 @@ la subida de una foto.</p>
 </div>
 </div>
 </div>
-<div class="sect2 data-line-153">
+<div class="sect2 data-line-152">
 <h3 id="_actividad_3_diagrama_de_casos_de_uso_de_la_aplicación_del_gd">2.3. Actividad 3: Diagrama de casos de uso de la aplicación del GD</h3>
-<div class="paragraph data-line-155">
-<p>A partir de la especificación diseñada en la clase del grupo docente referente a una de las dos aplicaciones propuestas, diseñar e implementar con mermaid y y plantUML el diagrama de casos de uso correspondiente.</p>
+<div class="paragraph data-line-154">
+<p>A partir de la especificación diseñada en la clase del grupo docente referente a una de las dos aplicaciones propuestas, diseñar e implementar con plantUML el diagrama de casos de uso correspondiente.</p>
 </div>
 <div class="admonitionblock important data-line-158">
 <table>
@@ -705,7 +702,7 @@ La solución a todos los ejercicios deberá está en un archivo llamado README.m
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-09-22 12:17:07 +0200
+Last updated 2022-09-26 08:58:03 +0200
 </div>
 </div>
 </body>

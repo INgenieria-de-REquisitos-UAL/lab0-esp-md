@@ -9,7 +9,7 @@
 ////
 Nombre - Titulo
 ////
-# Lab 0 - Familiarización con MarkDown-Mermaid-PlantUML 
+# Lab 0 - Familiarización con MarkDown-PlantUML 
 Ejercicios de MarkDown, Mermaid y PlantUML
 Manel Mena <manel.mena@ual.es>
 
@@ -21,13 +21,12 @@ Manel Mena <manel.mena@ual.es>
 [abstract]
 == Resumen
 
-Ejercicios para familiarizarse con MarkDown-Mermaid-PlanUML.
+Ejercicios para familiarizarse con MarkDown-PlanUML.
 
 .Objetivos
 
 * Funcionamiento básico de repositorios GIT.
 * Uso básico de Markdown.
-* Uso básico de Mermaid.
 * Uso básico de PlantUML.
 
 // Modo numerado
@@ -36,7 +35,7 @@ Ejercicios para familiarizarse con MarkDown-Mermaid-PlanUML.
 
 == Introducción 
 
-En esta primera sesión vamos a familiarizarnos con los repositorios git, el lenguaje de documentación de repositorios markdown y los plugins mermaids y plant UML. Para ello la subsección links encontrareis documentos de ayuda para cada uno de estos lenguajes. A continuación, detallaremos las actividades que tendréis que realizar en esta primera clase de prácticas.
+En esta primera sesión vamos a familiarizarnos con los repositorios git, el lenguaje de documentación de repositorios markdown y el plugin de plant UML. Para ello la subsección links encontrareis documentos de ayuda para cada uno de estos lenguajes. A continuación, detallaremos las actividades que tendréis que realizar en esta primera clase de prácticas.
 
 image::inre.jpg[]
 
@@ -45,7 +44,7 @@ image::inre.jpg[]
 Lo primero es comprobar que tenéis instalado y funcionando el siguiente Software.
 
 *	Visual Studio Code.
-*	Los plugins de Mermaid, PlantUML y MarkDown PDF.
+*	Los plugins de PlantUML y MarkDown PDF.
 
 [NOTE]
 ====
@@ -60,8 +59,8 @@ Uno de los alumnos miembros del grupo creará un repositorio dónde iremos subie
 
 image::gitRepo.png[]
 
-=== Actividad 2: Diagramas de Casos de Uso con mermaid y plantUML
-A continuación, tenéis una serie de supuestos prácticos para los cuales tendréis que generar un diagrama de casos de uso con mermaid y otro con plantUML. Para ello, generareis un archivo markdown en el cual embeberéis el enunciado de cada uno de los supuestos junto con el código mermaid y el código plantUML. 
+=== Actividad 2: Diagramas de Casos de Uso con plantUML
+A continuación, tenéis una serie de supuestos prácticos para los cuales tendréis que generar un diagrama de casos de uso con plantUML. Para ello, generareis un archivo markdown en el cual embeberéis el enunciado de cada uno de los supuestos junto con el el código plantUML. 
 [NOTE]
 ====
 Para facilitar la consecución de estos ejercicios, comentaros que estos diagramas vienen de ejercicios que ya realizasteis el año anterior en la asignatura de ingeniería de software.
@@ -152,7 +151,8 @@ la subida de una foto.
 
 === Actividad 3: Diagrama de casos de uso de la aplicación del GD
 
-A partir de la especificación diseñada en la clase del grupo docente referente a una de las dos aplicaciones propuestas, diseñar e implementar con mermaid y y plantUML el diagrama de casos de uso correspondiente.
+A partir de la especificación diseñada en la clase del grupo docente referente a una de las dos aplicaciones propuestas, diseñar e implementar con plantUML el diagrama de casos de uso correspondiente.
+
 
 [IMPORTANT]
 La solución a todos los ejercicios deberá está en un archivo llamado README.md en la subcarpeta correspondiente a la sesión de prácticas.
